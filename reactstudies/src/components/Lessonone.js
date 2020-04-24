@@ -6,6 +6,13 @@ import React from "react"
 
 //function done using ES6
 
-const Lessonone = () => <h1>Javascript functions(my first lesson) </h1>
-
+    const Lessonone = (props) => {
+        console.log(props)
+        return (
+          <div>
+              <h1> {props.name} a.k.a {props.heroName} </h1>
+              {props.children}
+          </div>
+    )
+}
 export default Lessonone
