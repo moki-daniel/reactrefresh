@@ -4,6 +4,7 @@ import './App.css';
 import Lessonone from './components/Lessonone'
 import Classcomponent from './components/Classcomponent'
 import Message from './components/Message'
+import Counter from './components/Counter';
 
 
 class App extends Component {
@@ -11,6 +12,7 @@ class App extends Component {
     return (
       <div className="App">
         <Message />
+        <Counter />
        {/*<Lessonone name="react" heroName="king of dynamic websites">
        <button>Click to view</button>
        </Lessonone>*/}
