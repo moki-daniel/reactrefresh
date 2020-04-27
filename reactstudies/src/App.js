@@ -1,18 +1,23 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react'
+import logo from './logo.svg'
+import './App.css'
 import Lessonone from './components/Lessonone'
 import Classcomponent from './components/Classcomponent'
 import Message from './components/Message'
-import Counter from './components/Counter';
+import Counter from './components/Counter'
+import Destructureprops from './components/Destructureprops'
+
 
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Message />
-        <Counter />
+        {/*<Message />*/}
+        {/*<Counter />*/}
+      <Destructureprops name="destructured properties" heroName="destructured props" >
+        <button>click to view</button>
+      </Destructureprops >
        {/*<Lessonone name="react" heroName="king of dynamic websites">
        <button>Click to view</button>
        </Lessonone>*/}
