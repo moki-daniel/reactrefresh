@@ -6,6 +6,8 @@ import Classcomponent from './components/Classcomponent'
 import Message from './components/Message'
 import Counter from './components/Counter'
 import Destructureprops from './components/Destructureprops'
+import Onclickeventhandling from './components/Onclickeventhandling'
+import Classonclickeventhandler from './components/Classonclickeventhandler'
 
 
 
@@ -18,6 +20,8 @@ class App extends Component {
       <Destructureprops name="destructured properties" heroName="destructured props" >
         <button>click to view</button>
       </Destructureprops >
+      <Onclickeventhandling />
+      <Classonclickeventhandler />
        {/*<Lessonone name="react" heroName="king of dynamic websites">
        <button>Click to view</button>
        </Lessonone>*/}
