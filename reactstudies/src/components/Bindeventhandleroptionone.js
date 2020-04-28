@@ -7,15 +7,22 @@ class Bindeventhandleroptionone extends Component {
       this.state = {
          message: 'Hello, click to bind this event'
       }
-      this.clickHandler = this.clickHandler.bind(this)
+      //this.clickHandler = this.clickHandler.bind(this)
     }
 
-      clickHandler() {
-        this.setState({
-            message:'This event is binded'
-        })
-        console.log(this)
-    }
+     // clickHandler() {
+        //this.setState({
+           // message:'This event is binded'
+     //   })
+      //  console.log(this)
+   // }
+
+   clickHandler = () => {
+       this.setState({
+           message:'this event is binded'
+       })
+
+   }
 
   render() {
     return (
