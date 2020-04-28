@@ -8,6 +8,7 @@ import Counter from './components/Counter'
 import Destructureprops from './components/Destructureprops'
 import Onclickeventhandling from './components/Onclickeventhandling'
 import Classonclickeventhandler from './components/Classonclickeventhandler'
+import Bindeventhandleroptionone from './components/Bindeventhandleroptionone'
 
 
 
@@ -22,6 +23,7 @@ class App extends Component {
       </Destructureprops >
       <Onclickeventhandling />
       <Classonclickeventhandler />
+      <Bindeventhandleroptionone />
        {/*<Lessonone name="react" heroName="king of dynamic websites">
        <button>Click to view</button>
        </Lessonone>*/}
