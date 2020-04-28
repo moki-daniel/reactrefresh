@@ -10,7 +10,7 @@ class Bindeventhandleroptionone extends Component {
       this.clickHandler = this.clickHandler.bind(this)
     }
 
-    clickHandler() {
+      clickHandler() {
         this.setState({
             message:'This event is binded'
         })
